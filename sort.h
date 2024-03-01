@@ -26,5 +26,8 @@ int len_list(listint_t *h);
 void swap_nodes(listint_t **h, listint_t **n1, listint_t *n2);
 void insertion_sort_list(listint_t **list);
 void selection_sort(int *array, size_t size);
-
+void quick_sort(int *array, size_t size);
+void rec_part(int *array, int l, int h, int s);
+int low_part(int *array, int l, int h, int s);
+void swp(int *array, int i, int j, int s);
 #endif
